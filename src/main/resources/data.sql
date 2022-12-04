@@ -1,0 +1,9 @@
+CREATE SCHEMA IF NOT EXISTS learning;
+
+CREATE TABLE IF NOT EXISTS learning.patient_record (
+    id INTEGER NOT NULL AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    age VARCHAR(255) NOT NULL,
+    address VARCHAR NOT NULL,
+    PRIMARY KEY (id)
+);
